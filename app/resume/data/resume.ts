@@ -229,7 +229,8 @@ const resume: Resume = {
 					description:
 						"주요정보통신기반시설 대상 웹 취약점 이행 점검 및 업무 자동화 도구를 개발했습니다.",
 					do: [
-						"VBA를 활용한 엑셀 보고서 자동화 및 나라장터 API 기반 공고 메일링 시스템을 개발하여 반복 업무 효율화",
+						"주요 정보 통신 기반 시설 웹 취약점 이행 점검 수행",
+						"Node.js 및 VBA를 활용한 공고 메일링 시스템과 보고서 작성 매크로 구축으로 업무 효율화",
 					],
 					techHighlight: ["Burp Suite"],
 					tech: ["Node.js", "VBA", "Wireshark"],
