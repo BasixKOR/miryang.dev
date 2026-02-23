@@ -29,6 +29,11 @@ export const projects: Array<{
 		section: "발표",
 		data: [
 			{
+				title: "FOSSASIA Summit 2026",
+				description: "Taming Large Image Lists in React Native",
+				link: "https://eventyay.com/e/88882f3e/session/10349",
+			},
+			{
 				title: "Supabase Launch Week 15 Seoul",
 				description: "Supercharging Kakao Login on Supabase",
 				link: "https://www.meetup.com/dev-korea/events/308860015",

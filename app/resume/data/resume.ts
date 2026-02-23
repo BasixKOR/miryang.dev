@@ -18,7 +18,7 @@ const resume: Resume = {
 		{
 			title: "고객 경험의 완결성을 추구합니다.",
 			description:
-				"'동작하는 코드'를 넘어 '고객에게 닿는 가치'를 책임집니다. 기획 단계에서 기술적 제약과 엣지케이스를 선제적으로 공유해 재작업을 최소화하고, 배포 후에도 실사용 환경의 오류와 UX 이슈를 직접 모니터링하여 고객 딜리버리의 완결성을 높여가고 있습니다.",
+				"'동작하는 코드'를 넘어 '고객에게 닿는 가치'를 책임집니다. 기획 단계에서 기술적 제약과 엣지케이스를 선제적으로 공유해 재작업을 최소화하고 , 배포 후에도 실사용 환경의 오류와 UX 이슈를 직접 모니터링하여 고객 딜리버리의 완결성을 높여가고 있습니다. 또한, 기술 부채 해결 및 성능 최적화를 주도하여 서비스의 장기적인 안정성과 쾌적한 사용자 경험을 동시에 확보합니다.",
 		},
 	],
 
@@ -90,20 +90,14 @@ const resume: Resume = {
 					title: "페이브릴",
 					description: "세컨핸즈 명품 주얼리 전문 거래 커머스 플랫폼입니다.",
 					do: [
-						"초기 멤버이자 리드로서, 스택 선정부터 풀스택 개발, 배포, 서비스 출시 및 운영까지 주도하여 2.5만 MAU 달성",
-						"리소스와 비용을 고려한 효율적인 스택 선정으로 개발 및 운영 효율성을 극대화하여, 월 운영 비용을 $150 이하로 유지",
-						"카카오톡 로그인 지원을 위해 Supabase 오픈소스 프로젝트에 직접 기여하여 호환성을 개선, 이를 통해 신규 가입 유저 수 80% 증가",
-						"OpenAI의 text-embedding-3-small 모델을 활용한 AI 기반 상품 추천 시스템을 구축하여 클릭률 5%에서 36.8%로 향상",
-						"Streaming SSR 도입으로 페이지 진입 속도 1.5초 단축으로 사용자 이탈률 감소",
-						"주문 결제 시스템 및 쿠폰 시스템 개발, 분할 결제 기능을 추가 개발하여 주문 건수 30% 증가(사용자 결제 옵션을 확대로 구매 전환율 향상)",
-						"상품 등록 폼의 UX 개선을 위해 확보된 데이터를 기반으로 자동 입력 기능을 제안하고 개발하여, 상품 등록 수 50% 증가 및 사용자 문의 100% 감소",
-						"React Hook Form과 Zod를 활용한 폼 개발을 통해 유효성 검사 강화 및 코드 복잡성 감소",
-						"폼 컴포넌트에 대한 테스트를 작성하여 버그 발생률 감소",
-						"Growthbook을 활용한 A/B 테스트 도입으로 데이터 기반 의사결정 강화, 제품 개선 효과를 검증할 수 있는 체계 마련",
-						"Storybook과 shadcn-ui를 활용하여 디자인 시스템을 구축, 손쉽게 컴포넌트를 작성하고 표현할 수 있는 환경 조성",
-						"WebView 앱 개발 및 운영, 스토어 심사 및 배포, 유니버셜링크 구현 및 CodePush 연동, 웹과 앱 기능(이미지뷰어, 권한 등) 연동",
-						"거래, 매출, 상품 등록 등의 Slack Bot 알림 자동화로 운영 효율성 및 대응 속도 향상",
-						"마케팅 부서와 협력하여 data attribute를 활용한 GTM 설정을 용이하게 지원, 이를 위한 작업 및 가이드를 제공하여 마케팅 팀의 데이터 트래킹 구현 도움",
+						"초기 멤버이자 리드로서 스택 선정부터 풀스택 개발, 배포 및 운영 전 과정을 주도하여 MAU 2.5만 달성 및 월 운영 비용 $150 이하 유지",
+						"카카오톡 로그인 지원을 위해 Supabase 오픈소스에 직접 기여하여 기술적 제약을 해결했으며, 이를 통해 신규 가입 유저 수 80% 증가 견인",
+						"OpenAI 임베딩 모델을 활용한 AI 기반 상품 추천 시스템 구축으로 클릭률(CTR)을 5%에서 36.8%로 7배 이상 향상",
+						"Streaming SSR 도입으로 진입 속도를 1.5초 단축하고, 분할 결제 기능 등 구매 편의성을 개선하여 주문 건수 30% 증가 달성",
+						"데이터 기반의 상품 등록 UX 개선(자동 입력)을 주도하여 등록 수 50% 증가 및 관련 문의 100% 감소 성과 창출 (FECONF2024, FOSSASIA 2025 발표)",
+						"Growthbook을 통한 A/B 테스트 환경 및 Storybook·shadcn-ui 기반 디자인 시스템 구축으로 데이터 기반 의사결정과 개발 생산성 향상에 기여",
+						"WebView 앱의 안정적 운영(CodePush, 유니버셜 링크 등)과 Slack Bot 알림 자동화를 통해 서비스 운영 효율 최적화",
+						"마케팅 부서와 협업하여 data attribute 기반 GTM 가이드 및 트래킹 체계를 구축함으로써 마케팅 팀의 자체적인 데이터 분석 역량 지원",
 					],
 					techHighlight: [
 						"Next14",
@@ -144,12 +138,12 @@ const resume: Resume = {
 					description:
 						"농업에 종사하는 모든 사람들을 위한 커뮤니티 서비스입니다.",
 					do: [
-						"영농 작업 상황 및 장부 입력을 쉽게 도와주는 서비스인 영농 일지 & 영농 장부 개발",
-						"기존 코드를 모듈화하며, 홈개편 작업 시행",
-						"농산물 및 농기계를 판매하는 직거래장터 개발",
-						"웹뷰 사용 및 외부 SDK 연동을 위한 React Native 개발",
-						"웹뷰 앱 빌드 및 스토어 배포, 가이드라인 작성",
-						"웹뷰 앱을 ReactNative로 재작성, 네이티브 앱 개발",
+						"농가 생산성 향상을 위한 서비스인 '영농 일지' 및 '영농 장부'를 기획 단계부터 참여하여 개발",
+						"웹뷰 기반 앱을 React Native 네이티브 앱으로 성공적으로 재구축(Rewrite)하여 서비스 안정성 및 사용자 경험 고도화",
+						"기존 코드베이스의 모듈화 및 홈 화면 개편을 주도하여 사용자 접근성 및 개발 생산성 향상",
+						"농산물 및 농기계 직거래 마켓플레이스를 개발하여 서비스의 이커머스 영역 확장",
+						"웹뷰 연동 가이드라인을 작성하여 팀 내 협업 효율 향상",
+						"앱 빌드 및 스토어 심사·배포를 관리하여 안정적인 서비스 딜리버리 수행",
 					],
 					tech: ["Tailwind", "Git"],
 					techHighlight: [
@@ -177,7 +171,7 @@ const resume: Resume = {
 				{
 					title: "rescript-bindings",
 					description:
-						"ReScript를 사용하기 위한 외부 라이브러리 바인딩 모음이며 오픈소스 프로젝트입니다.",
+						"ReScript를 사용하기 위한 외부 라이브러리 바인딩 모음이며 오픈소스 프로젝트",
 					do: ["모노레포 구성", "Github Action을 사용한 npm 자동 배포"],
 					tech: ["ReScript"],
 					techHighlight: ["lerna", "Github Action"],
@@ -191,37 +185,15 @@ const resume: Resume = {
 			period: "21.06 ~ 21.11",
 			content: [
 				{
-					title: "Hypercerts Home",
-					description: "하이퍼서트 공식홈페이지입니다.",
-					do: [],
-					tech: ["Typescript", "TSX", "CRA", "Git", "Redux"],
-					techHighlight: ["React", "Emotion"],
-					link: "https://www.hypercerts.com",
-				},
-				{
-					title: "HCT POC",
+					title: "블록체인 기반 서비스 개발",
 					description:
-						"블록체인(하이퍼레저 INDY)을 이용한 신원 증명 프로젝트로 " +
-						"하이퍼레저 ARIES를 이용한 STEWERD API를 작성했습니다.",
+						"하이퍼서트 공식 홈페이지, 하이퍼레저 INDY 기반 신원 증명 프로젝트(HCT POC), 블록체인 작품 거래 사이트(Qart.art) 등 다수의 프로젝트를 개발했습니다.",
 					do: [
-						"하이퍼레저 ARIES 로 INDY 원장 연결 및 에이전트 작성",
-						"앱을 위한 Mediator 작성",
-						"Express.js 로 API 작성 및 Swagger 작성",
+						"하이퍼레저 ARIES를 활용한 INDY 원장 연결, 에이전트 및 Mediator 작성 등 블록체인 백엔드 API 개발",
+						"React 기반 공식 홈페이지 개발 및 기존 프론트엔드 레이아웃 리팩토링",
 					],
-					tech: ["Node.js", "Express.js", "Typescript", "Swagger"],
-					techHighlight: ["Aries Framework"],
-					link: null,
-				},
-				{
-					title: "Qart.art",
-					description:
-						"QR코드와 블록체인을 이용하여 운영되는 작품 거래 사이트입니다.",
-					do: [
-						"기존에 이미 개발된 프론트엔드의 잦은 레이아웃 깨짐 현상 및 버그 수정하기 위해 리팩토링",
-					],
-					tech: ["JSP", "CSS", "AJAX", "Git"],
-					techHighlight: ["Javascript"],
-					link: "https://qart.art",
+					techHighlight: ["React", "Aries Framework", "Node.js"],
+					tech: ["Typescript", "Express.js", "Swagger", "Javascript", "Git"],
 				},
 			],
 		},
@@ -232,63 +204,18 @@ const resume: Resume = {
 			period: "20.04 ~ 21.05",
 			content: [
 				{
-					title: "관세청 AIXAC Portal",
+					title: "관세청 AIXAC 시스템",
 					description:
-						"AIXAC 시스템의 데이터베이스 및 그래프를 보여주고," +
-						"서버의 성능을 모니터링하는 화면을 설계 및 개발했습니다.",
+						"관세청 AI 기반 화물 판독 시스템의 포털, 뷰어, 시뮬레이터 등 다수의 모듈을 설계 및 개발했습니다.",
 					do: [
-						"파일 다운로드 시 스트림을 이용하여 프로그레스바 구현",
-						"실시간 서버 성능 관제용 화면 설계, 디자인 및 개발",
+						"AI가 식별한 화물의 바운딩 박스 시각화 및 웹소켓 기반 실시간 데이터 전송을 구현하여 판독관용 뷰어 개발",
+						"AIXAC 포털의 실시간 서버 성능 관제 화면 설계 및 개발",
+						"기존 C# 시스템의 잦은 장애를 해결하기 위해 Python 기반 재설계를 제안하고 초기 개발 방향 수립",
+						"폐쇄망 환경의 개발용 시뮬레이터를 구축(MSSQL, TCP 통신, 파일 생성 흐름 구현)",
 					],
-					tech: ["JSP", "CSS", "tui-chart", "jQuery", "AJAX", "Git"],
-					techHighlight: ["Javascript"],
+					techHighlight: ["Go", "Python", "Javascript"],
+					tech: ["Flask", "Node.js", "Express.js", "MSSQL", "jQuery", "Git"],
 					link: "https://blog.naver.com/k_customs/221835330899",
-				},
-				{
-					title: "화물 판독 및 AI 식별용 뷰어",
-					description:
-						"인천특송물류센터, 인천항, 평택항에서 판독관들이 보는 AI 식별용 뷰 화면을 개발했습니다.",
-					do: [
-						"웹소켓으로 실시간 데이터 전송 구현",
-						"뷰어 화면 디자인 및 설계 및 개발",
-						"AI가 식별한 물품의 바운딩 박스를 이미지에 그리기 구현",
-					],
-					tech: ["HTML", "CSS", "Javascript"],
-					techHighlight: ["Go", "echo"],
-					link: null,
-				},
-				{
-					title: "개발용 시뮬레이터",
-					description:
-						"폐쇄망에 설치되는 SW의 개발을 위해 해당 환경의 시스템 흐름과 유사하게 작동되도록 시뮬레이터를 개발하였습니다.",
-					do: [
-						"작동시 값을 쉽게 설정할 수 있도록 웹으로 개발",
-						"MSSQL 데이터 삽입, TCP 통신, 파일 생성의 흐름을 구현",
-						"기존에 Node.js로 개발했으나 유지보수를 위해 Flask로 전환",
-					],
-					tech: [
-						"Javascript",
-						"Express.js",
-						"HTML",
-						"CSS",
-						"Python",
-						"MSSQL",
-						"Git",
-					],
-					techHighlight: ["Flask", "Node.js"],
-					link: null,
-				},
-				{
-					title: "기존 AIXAC 시스템 재설계",
-					description:
-						"기존 C#으로 개발된 SW의 잦은 문제 발생을 해결하기 위해 재설계를 제안했고, AI 엔진과의 호환성을 위해 언어를 파이썬으로 변경 후 진행했습니다.",
-					do: [
-						"기존 시스템의 설계, 구조 및 데이터 흐름 파악",
-						"재설계 초기의 개발 방향 제시 (이후 팀리더 영입)",
-					],
-					tech: [],
-					techHighlight: [],
-					link: null,
 				},
 			],
 		},
@@ -298,31 +225,14 @@ const resume: Resume = {
 			period: "19.08 ~ 20.02",
 			content: [
 				{
-					title: "웹 취약점 이행 점검",
+					title: "보안 컨설팅 및 업무 자동화",
+					description:
+						"주요정보통신기반시설 대상 웹 취약점 이행 점검 및 업무 자동화 도구를 개발했습니다.",
 					do: [
-						"주요정보통신기반시설 취약점 점검 가이드 기반 웹 취약점 이행 점검",
+						"VBA를 활용한 엑셀 보고서 자동화 및 나라장터 API 기반 공고 메일링 시스템을 개발하여 반복 업무 효율화",
 					],
-					tech: ["Wireshark"],
 					techHighlight: ["Burp Suite"],
-					link: null,
-				},
-				{
-					title: "나라장터 메일링",
-					do: [
-						"나라장터 API를 이용해 특정 키워드의 공고를 목록화 후 1시간마다 메일로 전송",
-					],
-					tech: ["Javascript"],
-					techHighlight: ["Node.js"],
-					link: null,
-				},
-				{
-					title: "엑셀 보고서 자동화",
-					do: [
-						"취약점 보안점검 실행 결과로 생성되는 txt 파일을 Excel에 자동으로 채워주는 매크로를 VBA를 사용해 작성",
-						"수작업으로 작성하던 보고서 작성 시간을 단축",
-					],
-					tech: ["Excel"],
-					techHighlight: ["VBA"],
+					tech: ["Node.js", "VBA", "Wireshark"],
 					link: null,
 				},
 			],
@@ -332,6 +242,11 @@ const resume: Resume = {
 		{
 			name: "발표",
 			content: [
+				{
+					title:
+						"FOSSASIA Summit 2026 - Taming Large Image Lists in React Native",
+					url: "https://eventyay.com/e/88882f3e/session/10349",
+				},
 				{
 					title:
 						"Supabase Launch Week 15 Seoul - Supercharging Kakao Login on Supabase",
@@ -391,6 +306,9 @@ const resume: Resume = {
 		{
 			name: "커뮤니티",
 			content: [
+				{
+					title: "Korean FE Article Team",
+				},
 				{
 					title: "DEFY DEFAULT - Co-Founder",
 				},

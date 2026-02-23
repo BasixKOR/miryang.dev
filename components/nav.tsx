@@ -28,11 +28,11 @@ export const navs = [
 		href: "/guestbook",
 		label: "Guestbook",
 	},
-	{
-		href: "https://notes.miryang.dev",
-		label: "Notes",
-		external: true,
-	},
+	// {
+	// 	href: "https://notes.miryang.dev",
+	// 	label: "Notes",
+	// 	external: true,
+	// },
 ];
 
 export default function Nav() {

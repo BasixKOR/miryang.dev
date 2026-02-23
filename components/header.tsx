@@ -15,7 +15,8 @@ export default function Header() {
 				<Nav />
 			</div>
 
-			<div className="flex items-center gap-1">
+			<div className="flex items-center gap-1.5">
+				<OpenToWork />
 				<ThemeChanger />
 				<Logo />
 			</div>
@@ -57,5 +58,16 @@ function ThemeChanger() {
 			<Moon className="h-5 w-5 hidden transition-all dark:block text-primary stroke-1" />
 			<span className="sr-only">Toggle theme</span>
 		</Button>
+	);
+}
+
+function OpenToWork() {
+	return (
+		<Link
+			href="/resume"
+			className="text-xs font-medium bg-slate-50 text-gray-900 border border-gray-900 rounded-full px-2 py-1"
+		>
+			Open to Work
+		</Link>
 	);
 }
