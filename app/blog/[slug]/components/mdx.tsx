@@ -1,5 +1,6 @@
 import { cn } from "@/components/ui/utils";
 import * as runtime from "react/jsx-runtime";
+import { FilterDemo } from "./filter-demo";
 
 interface Props {
 	code: string;
@@ -14,6 +15,7 @@ const components = {
 			className={cn([className, "text-primary"])}
 		/>
 	),
+	FilterDemo,
 };
 
 const useMDXComponent = (code: string) => {
