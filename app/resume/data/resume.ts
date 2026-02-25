@@ -42,6 +42,7 @@ const resume: Resume = {
 						"국제화(i18n) 아키텍처 설계 및 구현을 주도하여 글로벌 서비스 확장의 기술적 기반 마련",
 						"미국 시장 진출을 위한 인플루언서 인터뷰 및 광고 소재 제작에 직접 참여하여 CPI $5.98의 최고 효율 광고를 제작",
 						"프론트엔드에 국한되지 않고 필요 시 백엔드 API 개발에 직접 참여하여 팀의 병목을 해소했으며, Expo 54 업그레이드 및 기술 부채 해결을 주도하여 서비스의 장기적인 안정성 확보",
+						"Cursor, Claude Code 등 AI 코딩 도구의 Rule·Skill·Hook 등 팀 맞춤 환경을 설계하여 AI 기반 개발 워크플로우를 구축하고 팀 내 개발 생산성 향상을 주도",
 					],
 					techHighlight: ["Claude Code", "Cursor", "Expo (React Native)"],
 					tech: [
